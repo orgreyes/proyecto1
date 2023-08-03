@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="build/js/app.js"></script>
     <link rel="shortcut icon" href="<?= asset('images/cit.png') ?>" type="image/x-icon">
     <link rel="stylesheet" href="<?= asset('build/styles.css') ?>">
-    <title>DemoApp</title>
+    <title>Proyecto 1</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
@@ -16,15 +16,15 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="/ejemplo/">
+            <a class="navbar-brand" href="/proyecto1/">
                 <img src="<?= asset('./images/cit.png') ?>" width="35px'" alt="cit" >
-                Aplicaciones
+                Proyecto1
             </a>
             <div class="collapse navbar-collapse" id="navbarToggler">
                 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin: 0;">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/ejemplo/"><i class="bi bi-house-fill me-2"></i>Inicio</a>
+                        <a class="nav-link" aria-current="page" href="/proyecto1/"><i class="bi bi-house-fill me-2"></i>Inicio</a>
                     </li>
   
                     <div class="nav-item dropdown " >
