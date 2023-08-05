@@ -14,4 +14,9 @@ class ProductoController{
             // 'productos2' => $productos2,
         ]); 
     }
+
+    public static function buscarAPI(){
+        $productos = Producto::all();
+        echo json_encode($productos);
+    }
 }
